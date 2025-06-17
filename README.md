@@ -1,2 +1,2 @@
-# Revis-o
+# Revisão
 Revisão do conteudo HTML + CSS + BootStrap
