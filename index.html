@@ -7,71 +7,86 @@
     <title>Document</title>
     <link rel="stylesheet" href="BootStrap/css/bootstrap.css">
 </head>
-<body>
-    <nav
-        class="navbar navbar-expand-sm navbar-light bg-light"
-    >
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-                class="navbar-toggler d-lg-none"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page"
-                            >Home
-                            <span class="visually-hidden">(current)</span></a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Sobre.html">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contato.html">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Serviço.html">Serviço</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="dropdownId"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                            >Dropdown</a
-                        >
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="dropdownId"
-                        >
-                            <a class="dropdown-item" href="#"
-                                >Action 1</a
-                            >
-                            <a class="dropdown-item" href="#"
-                                >Action 2</a
-                            >
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
 
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-body-secondary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html">Serviço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container mt-5">
+                <div class="row position-relative">
+                    <div class="col-6">
+                        <div class="card ">
+                            <div class="card-body bg-dark-subtle">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Imagem/eab8c632adf6f5a5c86ad6bb38229a43.jpg" alt="Title" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Title</h4>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis iusto harum fuga, praesentium quos quidem quam provident sapiente at, ipsam tempore error, accusamus ullam sunt aperiam voluptas quibusdam? Facere, excepturi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-body bg-dark-subtle">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Imagem/b5280781ac2a53da10ab5e457c0afb1f.jpg" alt="Title" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Title</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ea quam, nulla, soluta id dicta harum perferendis animi odit officia aut laudantium. Sit fuga provident officia dolor quasi excepturi facere!</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
 
 
 
     <script src="BootStrap/js/bootstrap.js"></script>
 </body>
+
 </html>
